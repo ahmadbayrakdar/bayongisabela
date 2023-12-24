@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            align-items: center;
+            margin: 20px;
+        }
+
+        .image-container {
+            margin: 10px;
+            text-align: center;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            margin: 10px 0;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            cursor: pointer; /* Add cursor style to indicate clickability */
+        }
+
+        .download-button {
+            padding: 5px 10px;
+            text-decoration: none;
+            color: #fff;
+            background-color: #000;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="image-container">
+        <img src="./images/1.jpg" alt="Image 3" onclick="downloadImage('./images/1.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/1.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/2.jpg" alt="Image 3" onclick="downloadImage('./images/2.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/2.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/3.jpg" alt="Image 3" onclick="downloadImage('./images/3.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/3.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/4.jpg" alt="Image 3" onclick="downloadImage('./images/4.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/4.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/5.jpg" alt="Image 3" onclick="downloadImage('./images/5.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/5.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/6.jpg" alt="Image 3" onclick="downloadImage('./images/6.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/6.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/7.jpg" alt="Image 3" onclick="downloadImage('./images/7.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/7.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/8.jpg" alt="Image 3" onclick="downloadImage('./images/8.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/8.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/9.jpg" alt="Image 3" onclick="downloadImage('./images/9.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/9.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/10.jpg" alt="Image 3" onclick="downloadImage('./images/10.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/10.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/11.jpg" alt="Image 3" onclick="downloadImage('./images/11.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/11.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/12.jpg" alt="Image 3" onclick="downloadImage('./images/12.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/12.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/13.jpg" alt="Image 3" onclick="downloadImage('./images/13.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/13.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/14.jpg" alt="Image 3" onclick="downloadImage('./images/14.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/14.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/15.jpg" alt="Image 3" onclick="downloadImage('./images/15.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/15.jpg" download>Download</a>
+    </div>
+
+    <div class="image-container">
+        <img src="./images/16.jpg" alt="Image 3" onclick="downloadImage('./images/16.jpg', 'Image 3', event)">
+        <a class="download-button" target="_blank" href="./images/16.jpg" download>Download</a>
+    </div>
+
+</body>
+</html>
